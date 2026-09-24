@@ -1,4 +1,4 @@
-# 02. Dockerfile
+# 2. Dockerfile
 
 El `Dockerfile` es el archivo que describe **cómo construir una imagen Docker** a partir de nuestro proyecto.
 
@@ -134,9 +134,9 @@ Esta diferencia es fundamental
 ```text
 Dockerfile
     │
-    ├── RUN ──🠢 durante docker build
+    ├── RUN 🠊 durante docker build
     │
-    └── CMD ──🠢 durante docker run
+    └── CMD 🠊 durante docker run
 ```
 
 ## El orden de las instrucciones importa
@@ -229,6 +229,17 @@ Deberíamos encontrar nuestra imagen `nombre:etiqueta`:
 | `redis:7.0` | `0256c63af7db` | `117MB` | `117MB` | |
 | `mi-proyecto:1.0` | `a1b2c3d4e5f6` | `182MB` | `182MB` | `U` |
 
+## Ahora tenemos
+
+```text
+Código
+  🠟
+Dockerfile
+  🠟
+docker build
+  🠟
+Imagen
+```
 
 ## Lo que necesitamos recordar
 

@@ -83,7 +83,7 @@ Podemos crear varios contenedores a partir de la misma imagen sin tener que cons
 
 No. Una máquina virtual incluye un sistema operativo completo que se ejecuta sobre un hipervisor.
 
-A diferencia de una máquina virtual, los contenedores no virtualizan hardware ni incluyen un sistema operativo completo; comparten el kernel del sistema operativo host y aislando únicamente los procesos de la aplicación. Esto permite que inicien en segundos y consuman muchos menos recursos.
+A diferencia de una máquina virtual, los contenedores no virtualizan hardware ni incluyen un sistema operativo completo; comparten el kernel del sistema operativo host y ejecutan procesos aislados que comparten el kernel del sistema que los ejecuta. Esto permite que inicien en segundos y consuman muchos menos recursos.
 
 De forma simplificada:
 
@@ -181,6 +181,10 @@ Imagen
 Docker Hub
    🠟
 docker pull
+   🠟
+Imagen local
+   🠟
+docker run
    🠟
 Contenedor
 ```
