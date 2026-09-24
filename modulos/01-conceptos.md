@@ -1,4 +1,4 @@
-# 1. Conceptos básicos
+# 1. Conceptos generales
 
 ## ¿Qué vamos a hacer?
 
@@ -10,13 +10,12 @@ El objetivo es entender los conceptos necesarios para poder:
 - ejecutar un contenedor
 - probar nuestra aplicación
 - conservar datos cuando sea necesario
+- ejecutar servicios que forman parte de una misma aplicación
 - publicar la imagen para que otra persona pueda ejecutarla
 
 ## ¿Qué es Docker?
 
 Docker es una plataforma que permite empaquetar aplicaciones junto con los elementos que necesitan para ejecutarse y distribuirlas como **imágenes**.
-
-Una imagen puede utilizarse para crear uno o más **contenedores**, que son las instancias en ejecución de esas imágenes.
 
 Podemos pensar el flujo de esta manera:
 
@@ -157,7 +156,7 @@ No siempre tenemos que construir una imagen desde cero.
 
 Docker puede descargar imágenes desde un registro.
 
-Uno de los registros más utilizados es **Docker Hub**.
+Un registro almacena y distribuye imágenes. Docker Hub es el registro que utilizaremos para publicar nuestro proyecto. Uno de los registros más utilizados es **Docker Hub**.
 
 Por ejemplo:
 
