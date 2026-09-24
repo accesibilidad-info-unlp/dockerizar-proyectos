@@ -44,18 +44,18 @@ docker run hello-world
 
 ```text
 Proyecto
-   🡇
+   🠟
 Dockerfile
-   🡇
+   🠟
 docker build
-   🡇
+   🠟
 Imagen
-   🡇
+   🠟
 docker run
-   🡇
+   🠟
 Prueba local
-   🡇
+   🠟
 Docker Hub
-   🡇
+   🠟
 Despliegue
 ```
