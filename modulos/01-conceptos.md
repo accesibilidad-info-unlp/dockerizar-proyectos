@@ -2,11 +2,9 @@
 
 ## ¿Qué vamos a hacer?
 
-En este taller vamos a preparar un proyecto para que pueda ejecutarse mediante
-Docker y posteriormente publicarse en Docker Hub.
+En este taller vamos a preparar un proyecto para que pueda ejecutarse mediante Docker y posteriormente publicarse en Docker Hub.
 
-El objetivo no es aprender Docker en profundidad, sino entender los conceptos
-necesarios para poder:
+El objetivo es entender los conceptos necesarios para poder:
 
 - construir una imagen
 - ejecutar un contenedor
@@ -16,11 +14,9 @@ necesarios para poder:
 
 ## ¿Qué es Docker?
 
-Docker es una plataforma que permite empaquetar aplicaciones junto con los
-elementos que necesitan para ejecutarse y distribuirlas como **imágenes**.
+Docker es una plataforma que permite empaquetar aplicaciones junto con los elementos que necesitan para ejecutarse y distribuirlas como **imágenes**.
 
-Una imagen puede utilizarse para crear uno o más **contenedores**, que son las
-instancias en ejecución de esas imágenes.
+Una imagen puede utilizarse para crear uno o más **contenedores**, que son las instancias en ejecución de esas imágenes.
 
 Podemos pensar el flujo de esta manera:
 
