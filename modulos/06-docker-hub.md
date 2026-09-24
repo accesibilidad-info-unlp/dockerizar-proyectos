@@ -75,13 +75,13 @@ Una imagen que queremos publicar en Docker Hub debe identificarse mediante un no
 Por ejemplo:
 
 ```text
-miguel/demo-app:1.0
+user1/demo-app:1.0
 ```
 
 Podemos dividir este nombre:
 
 ```text
-miguel
+user1
   ↓
 usuario de Docker Hub
 
@@ -103,7 +103,7 @@ USUARIO/REPOSITORIO:TAG
 Por ejemplo:
 
 ```text
-mikrod/mi-proyecto:1.0
+user1/mi-proyecto:1.0
 ```
 
 El nombre del repositorio y la etiqueta son importantes porque permiten identificar qué imagen estamos publicando y qué versión queremos utilizar. 
