@@ -38,3 +38,24 @@ Comprobar Docker:
 
 ```bash
 docker run hello-world
+```
+
+## Flujo de trabajo
+
+```text
+Proyecto
+   🡇
+Dockerfile
+   🡇
+docker build
+   🡇
+Imagen
+   🡇
+docker run
+   🡇
+Prueba local
+   🡇
+Docker Hub
+   🡇
+Despliegue
+```
